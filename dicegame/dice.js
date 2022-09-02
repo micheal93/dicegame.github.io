@@ -5,9 +5,6 @@
 
 //alert("Joy is comming");
 $("h3").css("color", "red");
-	
-
-$("button").click( function(){
 var roundNumber= "image/" + "dice" + Math.floor(Math.random() * 6 + 1) + ".png"; 
 var roundNumber2= "image/" + "dice" + Math.floor(Math.random() * 6 + 1) + ".png";  
 
@@ -21,6 +18,10 @@ if( roundNumber > roundNumber2){
 } else{
 	$("h2").html(" Draw !");
 }
+	
+
+$("button").click( function(){
+
 
 
 location.href = "dicegame.html";
